@@ -1,0 +1,45 @@
+#menu{
+	background-color: red;
+	width: 50%;
+	overflow:auto;
+	display:table;
+}
+
+#content{
+	outline: 1px solid black;
+	width: 50%;
+}
+
+.menuitem{
+	
+	display: table-cell;
+	padding: 1%;
+} 
+.menuitem > div {
+	background-color: white;
+}
+
+.menuitem > div:hover { 
+    background-color: yellow;
+    cursor:pointer;
+}
+
+.centered{
+	text-align: center;
+
+}
+.galleryContainer{
+	overflow:hidden;	
+}
+.GalleryPic{
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+
+@media screen and (max-width: 980px) {
+	#menu, #content {
+		width: 100%;
+	}
+}
