@@ -1,1 +1,0 @@
-scp -r * pablosan.com@ssh.pablosan.com:/www/pablopage
