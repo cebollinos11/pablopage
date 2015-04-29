@@ -7,7 +7,7 @@ app.controller('pControl', function($scope) {
 
 
 app.controller('GamesCtrl', function($scope,$http) {    
-
+    /*
     $scope.GameList = [
     				{name:"pabloquest",
     				info:"pabloquest info"},
@@ -16,10 +16,10 @@ app.controller('GamesCtrl', function($scope,$http) {
     				{name:"jsDown2",
     				info:"super cool game2"}
     				];
-
-     $http.get('./data.json')
+                */
+     $http.get('data.json')
         .then(function(res){
-             $scope.GameList = res.games;                
+             $scope.GameList = res.data[0].games;                
          });
 });
 
