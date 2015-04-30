@@ -25,7 +25,9 @@
 		    <h1 ng-bind="game.name" class="text-capitalize"></h1>
 			<p ng-bind="game.info"></p>
 			<div class="text-center">
+			<a target="_blank" href="{{getlink(game)}}">
 			<button type="button" class="btn btn-success btn-lg">Download</button></div>
+			</a>
 		    </div>
 		    <div class="col-sm-5">
 		    <img class="titlePic pic tilt" src="games/{{game.name}}/screenshots/1.jpg"></img>

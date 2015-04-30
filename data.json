@@ -2,11 +2,13 @@
     { "games":[
         {
             "name":"pabloquest",
+            "download":"1",
             "info":" This new version of PabloQuest features a graphical interface (thanks to rltiles), and a better structured code. I think the game is pretty fun, maybe a little bit hard for newbies but anyway. I hope you like it!"
         },
 
         {
             "name":"pabloquest_original",
+            "download":"0",
             "info":"PabloQuest is a roguelike game where you will find some fun. You will have to go trough a world drawn by letters and symbols slaying monsters and looting treasures, you can hire some warriors and then raid some towns or if you are brave enough you can wait until the dusk to enter in one of the cursed dungeons! You decide the way your character dies!"
         }
     ]

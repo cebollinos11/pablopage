@@ -19,7 +19,13 @@ app.controller('GamesCtrl', function($scope,$http) {
                 */
      $http.get('data.json')
         .then(function(res){
-             $scope.GameList = res.data[0].games;                
+             $scope.GameList = res.data[0].games;  
+
+             $scope.getlink = function(game){
+                if(game.download == "1") {return "games/"+game.name+"/files/"+game.name+".zip";}                    
+                else{return "nodownload";}
+
+             }              
          });
 });
 
