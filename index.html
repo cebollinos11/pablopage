@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Games page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -21,9 +21,11 @@
 		<div ng-controller="GamesCtrl">		
 		  <div ng-repeat = "game in GameList" class="gameEntry">
 		  <div class="row">
-		    <div class="col-sm-7" >
+		    <div class="col-sm-7"  >
 		    <h1 ng-bind="game.name" class="text-capitalize"></h1>
-			<p ng-bind="game.info" class="lead"></p>
+			<p ng-bind="game.info"></p>
+			<div class="text-center">
+			<button type="button" class="btn btn-success btn-lg">Download</button></div>
 		    </div>
 		    <div class="col-sm-5">
 		    <img class="titlePic pic tilt" src="games/{{game.name}}/screenshots/1.jpg"></img>
