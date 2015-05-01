@@ -25,7 +25,7 @@ A700#304FFE
 
 body{
 	/*background-color: #CCCCCC;*/
-	background-image: url("css/whitepattern.png");
+	background-image: url("css/lblue.png");
     background-repeat: repeat;
 }
 
@@ -104,6 +104,7 @@ margin-bottom: 20px;
 	width: 100%;
 	float: left;
 	margin: 1%;
+
 }
 
 .titlePic{
@@ -116,9 +117,16 @@ margin-bottom: 20px;
 	color: black;
 	background-color: #7986CB;
 	padding: 2%;
+	margin-bottom: 10px;
 }
 
 
+.GalleryRow
+{
+	background-color: #7986CB;
+	margin: 2px;
+	  padding-top: 20px;
+}
 
 
 @media screen and (max-width: 980px) {

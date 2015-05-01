@@ -24,22 +24,25 @@
 		    <div class="col-sm-7">
 		    <div class ="infosection">
 		    <h2 ng-bind="game.name" class="text-capitalize"></h2>
-			<p ng-bind="game.info"></p>
-			<div class="text-center">
-			<a target="_blank" href="{{getlink(game)}}">
-			<button type="button" class="btn btn-success btn-lg">Download</button>
-			</a>
-			<p class="small">Downloaded: <code>{{getDownloads($index)}}</code> times</p>
-			</div>
+			<p ng-bind="game.info" class="text-justify"></p>
+			
 			
 		    </div>
-		</div><!-- infosection -->
+
+		    <div class="text-center infosection">
+			<a target="_blank" href="{{getlink(game)}}">
+			<button type="button" class="btn btn-info btn-lg">Download</button>
+			</a>
+			<p class="small" style="padding-top:1%">Downloaded: <strong>{{getDownloads($index)}}</strong> times</p>
+			</div>
+		</div>
+
 		    <div class="col-sm-5">
 		    <img class="titlePic pic tilt" src="games/{{game.name}}/screenshots/1.jpg"></img>
 		    </div> 
 		    </div> 
 		<div class="row GalleryRow">
-		     <div class="col-sm-12"> <p>More Screenshots:</p></div>
+		     <div class="col-sm-12"> </div>
 		    <div ng-repeat="n in [2,3,4,5]">
 		    	<div class="col-sm-3"><img class="GalleryPic pic tilt"src="games/{{game.name}}/screenshots/{{n}}.jpg"></img>
 		    		<p>caption!</p></div>
