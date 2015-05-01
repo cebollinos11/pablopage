@@ -83,10 +83,9 @@ div{
   box-shadow: 0px 10px 5px #888;    
 }
 
-.gameEntry h1{
-	color: #222;
-text-shadow: 0px 2px 3px #555;
-font-size: 50px;
+.gameEntry h2{
+
+margin-top: auto;
 margin-bottom: 20px;
 
 }
@@ -118,6 +117,7 @@ margin-bottom: 20px;
 	background-color: #7986CB;
 	padding: 2%;
 	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px #111; 
 }
 
 
