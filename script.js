@@ -25,7 +25,11 @@ app.controller('GamesCtrl', function($scope,$http) {
                 if(game.download == "1") {return "games/"+game.name+"/files/"+game.name+".zip";}                    
                 else{return "nodownload";}
 
-             }              
+             }    
+
+             $scope.getDownloads = function(index){
+                return 872-index*1000;
+             }          
          });
 });
 

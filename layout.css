@@ -94,6 +94,11 @@ margin-bottom: 20px;
 }
 
 
+.infosection{
+	background-color: grey;
+}
+
+
 
 
 @media screen and (max-width: 980px) {
