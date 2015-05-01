@@ -28,7 +28,7 @@ app.controller('GamesCtrl', function($scope,$http) {
              }    
 
              $scope.getDownloads = function(index){
-                return 872-index*1000;
+                return 872-index*329;
              }          
          });
 });
